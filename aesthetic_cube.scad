@@ -90,12 +90,12 @@ module aesthetic_cube(
         cube([inset, inset, height - inset * 2]);
     }
     
-    if (leftBackEdge) {
+    if (leftFrontEdge) {
         translate([-width / 2, -depth / 2, inset])
         cube([inset, inset, height - inset * 2]);
     }
     
-    if (rightBackEdge) {
+    if (rightFrontEdge) {
         translate([width / 2 - inset, -depth / 2, inset])
         cube([inset, inset, height - inset * 2]);
     }
